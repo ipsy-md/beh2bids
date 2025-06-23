@@ -110,8 +110,6 @@ def create_participants(
 
 def _create_sidecar(df, filename):
     """
-    """
-    """
     Create sidecars for _beh/_events files
     """
     json_dict = {col: None for col in df.columns}
