@@ -51,8 +51,8 @@ Participants IDs must be valid subject labels or indeces. They constitute keys o
     ```
     DATA_INFO = {
             'data': {
-                '01': [</data/run-1.csv>, </data/run-2.csv>, ...],
-                '02': [</data/run-1.csv>, </data/run-2.csv>, ...]
+                '01': [<../sourcedata/run-1.csv>, <../sourcedata/run-2.csv>, ...],
+                '02': [<../sourcedata/run-1.csv>, <../sourcedata/run-2.csv>, ...]
             }
         }
     ```
@@ -61,12 +61,12 @@ Participants IDs must be valid subject labels or indeces. They constitute keys o
     DATA_INFO = {
             'data': {
                 '01': {
-                    'predrug': [</data/run-1.csv>, </data/run-2.csv>, ...],
-                    'postdrug':  [</data/run-1.csv>, </data/run-2.csv>, ...]
+                    'predrug': [<../sourcedata/run-1.csv>, <../sourcedata/run-2.csv>, ...],
+                    'postdrug':  [<../sourcedata/run-1.csv>, <../sourcedata/run-2.csv>, ...]
                 }
                 '02': {
-                    'predrug': [</data/run-1.csv>, </data/run-2.csv>, ...],
-                    'postdrug':  [</data/run-1.csv>, </data/run-2.csv>, ...]
+                    'predrug': [<../sourcedata/run-1.csv>, <../sourcedata/run-2.csv>, ...],
+                    'postdrug':  [<../sourcedata/run-1.csv>, <../sourcedata/run-2.csv>, ...]
                 }
             }
         }
