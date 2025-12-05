@@ -57,7 +57,7 @@ Participants IDs must be valid subject labels or indeces. They constitute keys o
         }
     ```
     In case of multiple sessions, you can simply add another nested dictionary for each participant, as in the following example, where session labels or indeces are the keys of the dictionary and :
-        ```
+    ```
     DATA_INFO = {
             'data': {
                 "01": {
